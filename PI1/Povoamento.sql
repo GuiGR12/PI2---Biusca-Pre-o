@@ -1,0 +1,66 @@
+INSERT INTO usuarios (nome) VALUES 
+('Guilherme Gonçalves Ribeiro'),
+('Talita Pereira da Silva');
+
+INSERT INTO mercados (nome_mercado) VALUES 
+('Sonda'),
+('Carrefour'),
+('Atacadão'),
+('X'),
+('Giga'),
+('Roldão'),
+('Assaí');
+
+INSERT INTO compras (data_mercado, valor_total, forma_pagamento) VALUES 
+('2024-07-28', 91.90, 'Crédito'),
+('2024-07-29', 41.67, 'Crédito'),
+('2027-07-21', 261.27, 'Crédito');
+
+INSERT INTO produtos (nome_produto, marca, preco, quantidade, data_compra) VALUES 
+('Detergente líquido', 'Ypê', 2.39, 2, '2024-07-28'),
+('Detergente líquido', 'Minuano', 1.65, 1, '2024-07-28'),
+('Água sanitária', 'Suprema', 2.25, 1, '2024-07-28'),
+('Lasanha presunto e queijo', 'Seara', 12.80, 1, '2024-07-28'),
+('Lasanha 4 queijos', 'Seara', 12.80, 1, '2024-07-28'),
+('Pano multiuso', 'Celeste', 3.90, 1, '2024-07-28'),
+('Mortadela', 'Perdigão', 3.90, 1, '2024-07-28'),
+('Mussarela', '3 Marias', 2.85, 1, '2024-07-28'),
+('Salame italiano', 'Perdigão', 7.89, 1, '2024-07-28'),
+('Sabonete líquido', 'Lux', 13.30, 1, '2024-07-28'),
+('Bisnaguinha', 'Panco', 7.59, 1, '2024-07-28'),
+('Curativo', 'Band-Aid', 13.90, 1, '2024-07-28'),
+('Sacola', 'Atacadão', 0.24, 1, '2024-07-29'),
+('Alface americana', 'Atacadão', 4.99, 1, '2024-07-29'),
+('Torrada', 'Bauducco', 3.98, 1, '2024-07-29'),
+('Biscoito rosquinha coco', 'Panco', 4.98, 1, '2024-07-29'),
+('Leite integral', 'Italac', 5.29, 2, '2024-07-29'),
+('Requeijão', 'Catupiry', 16.90, 1, '2024-07-29'),
+('Papel toalha', 'Econobom', 4.19, 1, '2024-07-21'),
+('Papel higiênico', 'Personal', 14.90, 1, '2024-07-21'),
+('Shampoo', 'Johnson & Johnson', 22.50, 1, '2024-07-21'),
+('Esponja de aço', 'Bombril', 4.75, 1, '2024-07-21'),
+('Sacola', 'Assaí', 0.25, 5, '2024-07-21'),
+('Pão de forma', 'Pullman', 5.99, 1, '2024-07-21'),
+('Lenço umidecido', 'Piquitucho', 11.40, 1, '2024-07-21'),
+('Pasta de dente', 'Close Up', 4.85, 1, '2024-07-21'),
+('Amaciante', 'Comfort', 10.40, 1, '2024-07-21'),
+('Orégano', 'Kitano', 3.79, 1, '2024-07-21'),
+('Bisnaguinha', 'Pullman', 5.49, 1, '2024-07-21'),
+('Chá de hortelã', 'Leão', 3.19, 1, '2024-07-21'),
+('Margarina', 'Qualy', 7.19, 1, '2024-07-21'),
+('Requeijão', 'Catupiry', 7.70, 1, '2024-07-21'),
+('Desodorante', 'Nivea', 14.60, 1, '2024-07-21'),
+('Loção', 'Neutrogena', 22.00, 1, '2024-07-21'),
+('Caixa de suco', 'Su Fresh', 4.89, 1, '2024-07-21'),
+('Shampoo', 'Pantene', 12.60, 1, '2024-07-21'),
+('Refrigerante de uva', 'Fanta', 4.55, 1, '2024-07-21'),
+('Leite integral', 'Italac', 5.39, 2, '2024-07-21'),
+('Macarrão instantâneo', 'Nissin', 2.75, 3, '2024-07-21'),
+('Mussarela', 'Do Vakke', 5.74, 1, '2024-07-21'),
+('Salame', 'Sadia', 5.10, 1, '2024-07-21'),
+('Água mineral', 'Crystal', 2.95, 6, '2024-07-21'),
+('Lasanha presunto e queijo', 'Seara', 12.88, 1, '2024-07-21'),
+('Lasanha 4 queijos', 'Seara', 12.88, 1, '2024-07-21'),
+('Sabonete', 'Ypê', 1.25, 12, '2024-07-21'),
+('Sabão líquido roupas', 'Omo', 11.90, 1, '2024-07-21')
+;
