@@ -52,7 +52,8 @@ public class ProdutosDAO {
         int status;
         try {
             st = conn.prepareStatement("INSERT INTO produtos (nome_produto, marca, preco, quantidade, data_compra) VALUES(?,?,?,?,?)");
-            st.setString(1,produto.getNomeProduto());
+            String produtolocal = setaLocal(produto.getNomeProduto(), null);
+            st.setString(1,produtolocal);
             st.setString(2,produto.getMarca());
             st.setFloat(3,produto.getPreco());
             st.setInt(4,produto.getQuantidade());
@@ -65,6 +66,12 @@ public class ProdutosDAO {
         }
     }
     
+    public String setaLocal(String produto, String local){
+        if (local.equals("") || local == null){
+            return "Estoque - " + "Produto";
+        }
+        return local + " - " + produto;       
+    }
     
     public List<Produtos> consultar(String consulta){
         
