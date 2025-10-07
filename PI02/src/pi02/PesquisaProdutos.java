@@ -35,18 +35,18 @@ public class PesquisaProdutos extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        pnlPesquisaProdutos = new javax.swing.JPanel();
         btnDeletar = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        tblPesquisaProdutos = new javax.swing.JScrollPane();
         tblProdutos = new javax.swing.JTable();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lblPesquisaProdutoTitulo = new javax.swing.JLabel();
+        lblPesquisaCampo = new javax.swing.JLabel();
         txtPesquisa = new javax.swing.JTextField();
         btnVoltar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(51, 51, 51));
+        pnlPesquisaProdutos.setBackground(new java.awt.Color(51, 51, 51));
 
         btnDeletar.setBackground(new java.awt.Color(102, 0, 0));
         btnDeletar.setForeground(new java.awt.Color(255, 255, 255));
@@ -70,14 +70,14 @@ public class PesquisaProdutos extends javax.swing.JFrame {
                 "ID", "Nome do produto", "Marca", "Preço", "Quantidade", "Data da Compra"
             }
         ));
-        jScrollPane1.setViewportView(tblProdutos);
+        tblPesquisaProdutos.setViewportView(tblProdutos);
 
-        jLabel1.setFont(new java.awt.Font("sansserif", 0, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Pesquisa de produtos");
+        lblPesquisaProdutoTitulo.setFont(new java.awt.Font("sansserif", 0, 24)); // NOI18N
+        lblPesquisaProdutoTitulo.setForeground(new java.awt.Color(255, 255, 255));
+        lblPesquisaProdutoTitulo.setText("Pesquisa de produtos");
 
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Digite o nome do produto:");
+        lblPesquisaCampo.setForeground(new java.awt.Color(255, 255, 255));
+        lblPesquisaCampo.setText("Digite o nome do produto:");
 
         txtPesquisa.setBackground(new java.awt.Color(255, 255, 255));
         txtPesquisa.setForeground(new java.awt.Color(0, 0, 0));
@@ -101,39 +101,39 @@ public class PesquisaProdutos extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlPesquisaProdutosLayout = new javax.swing.GroupLayout(pnlPesquisaProdutos);
+        pnlPesquisaProdutos.setLayout(pnlPesquisaProdutosLayout);
+        pnlPesquisaProdutosLayout.setHorizontalGroup(
+            pnlPesquisaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlPesquisaProdutosLayout.createSequentialGroup()
                 .addContainerGap(22, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel2)
+                .addGroup(pnlPesquisaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlPesquisaProdutosLayout.createSequentialGroup()
+                        .addComponent(lblPesquisaCampo)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(txtPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel1)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 685, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addComponent(lblPesquisaProdutoTitulo)
+                    .addGroup(pnlPesquisaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(tblPesquisaProdutos, javax.swing.GroupLayout.PREFERRED_SIZE, 685, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(pnlPesquisaProdutosLayout.createSequentialGroup()
                             .addComponent(btnVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnDeletar))))
                 .addGap(28, 28, 28))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        pnlPesquisaProdutosLayout.setVerticalGroup(
+            pnlPesquisaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlPesquisaProdutosLayout.createSequentialGroup()
                 .addGap(26, 26, 26)
-                .addComponent(jLabel1)
+                .addComponent(lblPesquisaProdutoTitulo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(pnlPesquisaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtPesquisa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2))
+                    .addComponent(lblPesquisaCampo))
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tblPesquisaProdutos, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(pnlPesquisaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnDeletar, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnVoltar))
                 .addContainerGap(20, Short.MAX_VALUE))
@@ -143,11 +143,11 @@ public class PesquisaProdutos extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(pnlPesquisaProdutos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(pnlPesquisaProdutos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -206,8 +206,8 @@ public class PesquisaProdutos extends javax.swing.JFrame {
         int resposta;
         Produtos produto = new Produtos();
                
-        produto.setId(tblProdutos.getSelectedRow());
-                 
+        produto.setId((int)tblProdutos.getValueAt(tblProdutos.getSelectedRow(), 0));
+                       
         dao = new ProdutosDAO();
         status = dao.conectar();
         
@@ -268,10 +268,10 @@ public class PesquisaProdutos extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDeletar;
     private javax.swing.JButton btnVoltar;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblPesquisaCampo;
+    private javax.swing.JLabel lblPesquisaProdutoTitulo;
+    private javax.swing.JPanel pnlPesquisaProdutos;
+    private javax.swing.JScrollPane tblPesquisaProdutos;
     private javax.swing.JTable tblProdutos;
     private javax.swing.JTextField txtPesquisa;
     // End of variables declaration//GEN-END:variables

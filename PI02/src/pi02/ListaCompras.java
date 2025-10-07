@@ -35,16 +35,16 @@ public class ListaCompras extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        pnlListaProdutos = new javax.swing.JPanel();
         btnDeletar = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        tblListaProdutos = new javax.swing.JScrollPane();
         tblCompras = new javax.swing.JTable();
-        jLabel1 = new javax.swing.JLabel();
+        lblListaProdutosTitulo = new javax.swing.JLabel();
         btnVoltar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(51, 51, 51));
+        pnlListaProdutos.setBackground(new java.awt.Color(51, 51, 51));
 
         btnDeletar.setBackground(new java.awt.Color(102, 0, 0));
         btnDeletar.setForeground(new java.awt.Color(255, 255, 255));
@@ -73,11 +73,11 @@ public class ListaCompras extends javax.swing.JFrame {
                 "ID", "Data da Compra", "Valor Total", "Forma de Pagamento"
             }
         ));
-        jScrollPane1.setViewportView(tblCompras);
+        tblListaProdutos.setViewportView(tblCompras);
 
-        jLabel1.setFont(new java.awt.Font("sansserif", 0, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Lista de compras");
+        lblListaProdutosTitulo.setFont(new java.awt.Font("sansserif", 0, 24)); // NOI18N
+        lblListaProdutosTitulo.setForeground(new java.awt.Color(255, 255, 255));
+        lblListaProdutosTitulo.setText("Lista de compras");
 
         btnVoltar.setBackground(new java.awt.Color(102, 102, 102));
         btnVoltar.setForeground(new java.awt.Color(0, 0, 0));
@@ -88,31 +88,31 @@ public class ListaCompras extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlListaProdutosLayout = new javax.swing.GroupLayout(pnlListaProdutos);
+        pnlListaProdutos.setLayout(pnlListaProdutosLayout);
+        pnlListaProdutosLayout.setHorizontalGroup(
+            pnlListaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlListaProdutosLayout.createSequentialGroup()
                 .addContainerGap(22, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 685, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(pnlListaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblListaProdutosTitulo)
+                    .addGroup(pnlListaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(tblListaProdutos, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 685, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(pnlListaProdutosLayout.createSequentialGroup()
                             .addComponent(btnVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnDeletar))))
                 .addGap(28, 28, 28))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        pnlListaProdutosLayout.setVerticalGroup(
+            pnlListaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlListaProdutosLayout.createSequentialGroup()
                 .addGap(26, 26, 26)
-                .addComponent(jLabel1)
+                .addComponent(lblListaProdutosTitulo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tblListaProdutos, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(pnlListaProdutosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnDeletar, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnVoltar))
                 .addContainerGap(20, Short.MAX_VALUE))
@@ -122,11 +122,11 @@ public class ListaCompras extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(pnlListaProdutos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(pnlListaProdutos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -171,7 +171,7 @@ public class ListaCompras extends javax.swing.JFrame {
         int resposta;
         Compras compra = new Compras();
                
-        compra.setId(tblCompras.getSelectedRow());
+        compra.setId(((int)tblCompras.getValueAt(tblCompras.getSelectedRow(), 0)));
                  
         dao = new ProdutosDAO();
         status = dao.conectar();
@@ -237,9 +237,9 @@ public class ListaCompras extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDeletar;
     private javax.swing.JButton btnVoltar;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblListaProdutosTitulo;
+    private javax.swing.JPanel pnlListaProdutos;
     private javax.swing.JTable tblCompras;
+    private javax.swing.JScrollPane tblListaProdutos;
     // End of variables declaration//GEN-END:variables
 }
