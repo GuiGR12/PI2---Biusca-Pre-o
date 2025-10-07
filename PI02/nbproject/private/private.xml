@@ -5,10 +5,14 @@
         <group>
             <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/data/Mercados.java</file>
             <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/pi02/ListaCompras.java</file>
+            <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/data/ProdutosDAO.java</file>
             <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/pi02/AdicionarCompra.java</file>
+            <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/pi02/Menu.java</file>
             <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/pi02/AdicionarProduto.java</file>
+            <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/test/data/ProdutosDAOTest.java</file>
             <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/pi02/PesquisaProdutos.java</file>
             <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/data/Compras.java</file>
+            <file>file:/C:/Users/ggr12/Documents/SENAC/PI02/src/data/Produtos.java</file>
         </group>
     </open-files>
 </project-private>
